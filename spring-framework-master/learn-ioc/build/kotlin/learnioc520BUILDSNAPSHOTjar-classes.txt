@@ -1,0 +1,1 @@
+E:\spring-framework-master\learn-ioc\build\classes\java\main\xin\kingsman\org\bean\Fox.class;E:\spring-framework-master\learn-ioc\build\classes\java\main\xin\kingsman\org\bean\User.class;E:\spring-framework-master\learn-ioc\build\classes\java\main\xin\kingsman\org\config\AppConfig.class

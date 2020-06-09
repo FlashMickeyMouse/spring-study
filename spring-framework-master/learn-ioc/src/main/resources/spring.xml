@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean class="xin.kingsman.org.bean.User"></bean>
+<!--	<bean name="user2" class="xin.kingsman.org.bean.User"></bean>-->
+	<bean id="user1" class="xin.kingsman.org.bean.User" primary="true">
+		<property name="fox" ref="fox"></property>
+	</bean>
+	<bean id="fox" class="xin.kingsman.org.bean.Fox"></bean>
+	<bean id="strBean" class="java.lang.String"  >
+		<constructor-arg type="java.lang.String" value="this is string bean"></constructor-arg>
+	</bean>
+</beans>
